@@ -17,7 +17,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "docker-build": "docker-compose up --build",
-    "docker-dev": "docker compose run -p 3000:3000 -v /app/node_modules -v $(pwd):/app acd7015f3581",
+    "docker-dev": "docker compose run -p 3000:3000 -v /app/node_modules -v $(pwd):/app acd7015f3581"
   },
   "eslintConfig": {
     "extends": [
