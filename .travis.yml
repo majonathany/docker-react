@@ -3,7 +3,7 @@ services:
   - docker
 
 before_install:
-  - docker buit -t majonathant/docker-react -f Dockerfile.dev .
+  - docker build -t majonathant/docker-react -f Dockerfile.dev .
 
 script:
   - docker run majonathant/docker-react npm run test -- --coverage
