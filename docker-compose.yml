@@ -10,4 +10,4 @@ services:
       - /app/node_modules
       - .:/app
     environment:
-      CI: true
+      - CI: true
